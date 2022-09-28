@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:ital@1&display=swap");
+body {
+  background-color: rgba(235, 236, 238, 255);
+  margin: 0;
+  font-family: Roboto;
+  color: white;
+  font-size: 12px;
+}
+header img {
+  display: block;
+  width: 8%;
+  height: 8%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+header {
+  background-color: rgba(34, 47, 63, 255);
+}
+#nav {
+  display: flex;
+  color: white;
+  background-color: rgba(54, 71, 89, 255);
+}
+#nav div {
+  margin-right: 25px;
+  padding: 8px;
+  padding-left: 30px;
+}
+#main_content {
+  margin: 30px;
+}
+.gift {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(245, 101, 0, 255);
+  padding: 10px;
+  margin-top: 30px;
+  color: white;
+}
+#go-gifter {
+  background-image: url("bg-image.png");
+  background-size: contain;
+  margin-top: 30px;
+}
+#go-gifter div {
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+div p {
+  color: black;
+}
+.items {
+  background-color: white;
+  align-content: center;
+  justify-content: center;
+}
+.items p {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: #30999e;
+  font-weight: bold;
+  font-size: 9px;
+}
+#items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#items img {
+  display: inline-block;
+  width: 250px;
+  height: 260px;
+  border-radius: 10px;
+  margin: 15px;
+}
+#console img {
+  margin-top: 20px;
+  width: 100%;
+}
+#games p {
+  text-align: center;
+}
+
+#sound img {
+  margin-top: 25px;
+  width: 100%;
+}
+#footer {
+  margin-top: 20px;
+}
+#footer p {
+  margin-top: 35px;
+  background-color: rgba(54, 71, 89, 255);
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 0;
+}
+#footer p a {
+  text-decoration: underline;
+  color: white;
+}
+#footer_logo {
+  background-color: rgba(34, 47, 63, 255);
+}
+#footer_logo img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 8%;
+  height: 8%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
