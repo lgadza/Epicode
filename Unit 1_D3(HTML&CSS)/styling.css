@@ -91,6 +91,10 @@ a {
 #games p {
   text-align: center;
 }
+#sound {
+  margin-right: 30px;
+  margin-left: 30px;
+}
 
 #sound img {
   margin-top: 25px;
@@ -98,6 +102,8 @@ a {
 }
 #footer {
   margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 #footer p {
   margin-top: 35px;
