@@ -36,7 +36,37 @@ body {
   transform: translateY(0px);
   transition: 0.5s;
 }
+#pinterest-card:hover #location {
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+#location:hover {
+  cursor: pointer;
+  background-color: rgba(188, 179, 166, 0);
+  color: blanchedalmond;
+}
+#location {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  background-color: rgba(108, 101, 101, 0);
+  color: white;
 
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 180px;
+  height: 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px;
+  transform: translateY(-300px);
+}
 #top-bar {
   position: absolute;
   top: 30px;
