@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:ital@1&display=swap");
 body {
   margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
 }
 #pinterest-card {
   width: 400px;
